@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterApp component renders without crash 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Counter
+    reasonProps={
+        Array [
+            Array [
+              "Counter",
+              [Function],
+              Array [
+                0,
+              ],
+              [Function],
+              [Function],
+              [Function],
+              [Function],
+              [Function],
+              [Function],
+              [Function],
+              [Function],
+              0,
+              0,
+            ],
+          ]
+    }
+/>,
+  "nodes": Array [
+    <Counter
+      reasonProps={
+            Array [
+                  Array [
+                    "Counter",
+                    [Function],
+                    Array [
+                      0,
+                    ],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    0,
+                    0,
+                  ],
+                ]
+      }
+/>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <CounterApp
+        dispatch={[Function]}
+        state={
+                Array [
+                        0,
+                        0,
+                      ]
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance":  {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "enqueueMethod": [Function],
+        "handleMethod": [Function],
+        "props": Object {
+          "dispatch": [Function],
+          "state": Array [
+            0,
+            0,
+          ],
+        },
+        "refs": Object {},
+        "self": [Function],
+        "state": Object {
+          "reasonState": 0,
+          "reasonStateVersion": 1,
+          "reasonStateVersionUsedToComputeSubelements": 1,
+        },
+        "transitionNextTotalState": [Function],
+        "updateMethod": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Counter
+          reasonProps={
+                    Array [
+                              Array [
+                                "Counter",
+                                [Function],
+                                Array [
+                                  0,
+                                ],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                0,
+                                0,
+                              ],
+                            ]
+          }
+/>,
+        "_debugID": 2,
+        "_renderedOutput": <Counter
+          reasonProps={
+                    Array [
+                              Array [
+                                "Counter",
+                                [Function],
+                                Array [
+                                  0,
+                                ],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                0,
+                                0,
+                              ],
+                            ]
+          }
+/>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CounterApp
+    dispatch={[Function]}
+    state={
+        Array [
+            0,
+            0,
+          ]
+    }
+/>,
+}
+`;
