@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "reason-scripts": "https://github.com/scastiel/reason-scripts.git#handle-tests-in-js"
+    "reason-scripts": "^0.6.8"
   },
   "scripts": {
     "start": "react-scripts start",
