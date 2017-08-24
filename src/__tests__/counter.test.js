@@ -1,5 +1,5 @@
 import React from 'react'
-import { counter as Counter } from '../../lib/js/src/counter.js'
+import { counter as Counter } from '../counter.re'
 import { shallow } from 'enzyme'
 
 describe('Counter component', () => {

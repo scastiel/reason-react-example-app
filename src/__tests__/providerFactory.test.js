@@ -1,9 +1,9 @@
 import React from 'react'
-import { MakeProvider } from '../../lib/js/src/providerFactory'
-import CounterApp from '../../lib/js/src/counterApp'
+import { MakeProvider } from '../providerFactory.re'
+import CounterApp from '../counterApp.re'
 import { shallow } from 'enzyme'
-import { createState } from '../../lib/js/src/state'
-import { increment, incrementAction } from '../../lib/js/src/actions'
+import { createState } from '../state.re'
+import { increment, incrementAction } from '../actions.re'
 
 const Provider = MakeProvider()[2]
 

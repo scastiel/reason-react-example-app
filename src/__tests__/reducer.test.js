@@ -1,4 +1,4 @@
-import { reducer } from '../../lib/js/src/reducer'
+import { reducer } from '../reducer.re'
 import {
   incrementAction,
   decrementAction,

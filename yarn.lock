@@ -5450,16 +5450,16 @@ readline2@^1.0.1:
     is-fullwidth-code-point "^1.0.0"
     mute-stream "0.0.5"
 
-"reason-react@git+https://github.com/SanderSpies/react-on-reason.git":
+"reason-react@git+https://github.com/reasonml/reason-react.git":
   version "0.2.3"
-  resolved "git+https://github.com/SanderSpies/react-on-reason.git#8aa30ae63cc3bf7bef7bfc373c3a09a671dca267"
+  resolved "git+https://github.com/reasonml/reason-react.git#8aa30ae63cc3bf7bef7bfc373c3a09a671dca267"
   dependencies:
     react ">=15.0.0"
     react-dom ">=15.0.0"
 
-"reason-scripts@https://github.com/scastiel/reason-scripts.git#0.6.6-sc1":
+"reason-scripts@https://github.com/scastiel/reason-scripts.git#handle-tests-in-js":
   version "0.6.6"
-  resolved "https://github.com/scastiel/reason-scripts.git#f090dae353ed57995a340795a523e4ea1b153d76"
+  resolved "https://github.com/scastiel/reason-scripts.git#6b20c017869adc3d376c13ed74450b50734f7ee0"
   dependencies:
     autoprefixer "7.1.1"
     babel-core "6.25.0"

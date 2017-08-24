@@ -1,6 +1,6 @@
 import React from 'react'
-import { counterApp as CounterApp } from '../../lib/js/src/counterApp.js'
-import { createState } from '../../lib/js/src/state'
+import { counterApp as CounterApp } from '../counterApp.re'
+import { createState } from '../state.re'
 import { shallow } from 'enzyme'
 
 describe('CounterApp component', () => {

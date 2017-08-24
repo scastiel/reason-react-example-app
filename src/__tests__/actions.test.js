@@ -9,7 +9,7 @@ import {
   stopIncrementingAction,
   incrementEverySecond,
   stopIncrementingEverySecond
-} from '../../lib/js/src/actions'
+} from '../actions.re'
 
 jest.useFakeTimers()
 
@@ -17,7 +17,7 @@ describe('Actions', () => {
   describe('increment', () => {
     it('should call dispatch with Increment action', () => {
       const dispatch = jest.fn()
-      increment(null, dispatch)
+      increment(dispatch)
       expect(dispatch.mock.calls.length).toEqual(1)
       expect(dispatch.mock.calls[0][0]).toEqual(incrementAction)
     })
@@ -25,7 +25,7 @@ describe('Actions', () => {
   describe('decrement', () => {
     it('should call dispatch with Decrement action', () => {
       const dispatch = jest.fn()
-      decrement(null, dispatch)
+      decrement(dispatch)
       expect(dispatch.mock.calls.length).toEqual(1)
       expect(dispatch.mock.calls[0][0]).toEqual(decrementAction)
     })
@@ -41,7 +41,7 @@ describe('Actions', () => {
   describe('stopIncrementing', () => {
     it('should call dispatch with StopIncrementing action', () => {
       const dispatch = jest.fn()
-      stopIncrementing(null, dispatch)
+      stopIncrementing(dispatch)
       expect(dispatch.mock.calls.length).toEqual(1)
       expect(dispatch.mock.calls[0][0]).toEqual(stopIncrementingAction)
     })
@@ -50,7 +50,7 @@ describe('Actions', () => {
     it('should call setInterval, dispatch with StartIncrementingAction, and every second dispatch with Increment action', async () => {
       expect.assertions(8)
       const dispatch = jest.fn()
-      incrementEverySecond(null, dispatch)
+      incrementEverySecond(dispatch)
       expect(setInterval.mock.calls.length).toEqual(1)
       expect(setInterval.mock.calls[0][1]).toEqual(1000)
       expect(dispatch.mock.calls.length).toEqual(1)
